@@ -1,0 +1,550 @@
+*{margin: 0; padding: 0;font-family: "微软雅黑";}
+body{color: #333333;font-size: 14px;}
+img{display: block;}
+a{text-decoration: none;}
+.f12{font-size: 12px;}
+ul li{list-style: none;}
+button{cursor: pointer;}
+div{
+	/*border: 1px solid red;*/
+}
+.w160{
+	width: 160px;
+}
+.pr{position:relative;}
+.pa{position:absolute;}
+.mt30{margin-top: 30px;}
+.mt55{margin-top: 55px;}
+/*****************************/
+.topdraink{
+  min-width: 1160px;
+  height: 4px;
+  background: #702206;
+}
+.centerBox{
+	width: 1160px;
+	height: auto;
+	margin: 0 auto;
+	z-index: 99;
+	margin-top: 20px;
+	position: relative;
+}
+.logo{
+	overflow: hidden;
+	width: 1160px;
+	margin-bottom: 20px;
+}
+.navTop{
+	width: 1160px;
+	margin-bottom: 18px;
+}
+.navTop a{
+	display: inline-block;
+	color: #333333;
+	padding: 8px 12px;
+	font-size: 20px;
+	margin-right: 50px;
+}
+.navTop a:hover{
+	background: #702206;
+	color: #fff;
+}
+.navTopHover{
+	background: #702206 !important;
+	color: #fff !important;
+}
+.navTop a p{
+	text-align: center;
+	line-height: 1.6;
+}
+.span_hover_box, .login_information .ul_hover_box{
+	display: none;
+	background: #fff;
+	width: 132px;
+/*	height: 160px;*/
+	border: 1px solid #e0e0e0;
+	border-top: none;
+	position: absolute;
+	top: 76px;
+	right: 15px;
+	z-index: 99;
+}
+.iconTriangle{
+	position: absolute;
+	top: -8px;
+	left: -1px;
+}
+.MB_QRcode{
+	position: relative;
+}
+.MB_QRcode:hover span{
+	display: block;
+}
+.BannerBox{
+	min-width: 1160px;
+	height: 400px;
+	overflow: hidden;
+	background: #d5c9c1;
+	position: relative;
+}
+.BannerBox .center{
+	width: 1160px;
+	height: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.Arrow{
+	width: 1160px;
+	height: 69px;
+	position: absolute;
+
+	top: 50%;
+	margin-top: -34px;
+}
+.Arrow span{
+	display: block;
+	width: 44px;
+	height: 69px;
+	cursor: pointer;
+}
+.Arrow span:hover{
+	opacity: 0.6;
+}
+.Arrowleft{
+	float: left;
+}
+.Arrowright{
+	float: right;
+}
+.shopingcar, .Returntop{
+	width: 38px;
+	height: 38px;
+	position: fixed;
+	right: 40px;
+	top: 50%;
+	border: 1px solid #8f9cab;
+	cursor: pointer;
+}
+.shopingcar{
+	margin-top: 100px;
+}
+.Returntop{
+	margin-top: 150px;
+}
+.login_information{
+	position: absolute;
+	top: 24px;
+	right: 0;
+	font-size: 20px;
+}
+.login_information p{
+	width: 100%;
+	display: block;
+	float: left;
+}
+.login_information .Q i{
+	float: right;
+	margin-right: 5px;
+}
+.login_information .phon i,.login_information .user i{
+	float: right;
+	margin-right: 5px;
+}
+.login_information .phon span{
+	height: 23px;
+	line-height: 23px;
+	display: block;
+	float: right;
+}
+.login_information .user span{
+	height: 46px;
+	line-height: 23px;
+	text-align: center;
+	display: block;
+	float: right;
+}
+.login_information .user span a{
+	display: block;
+	float: left;
+	color: #333333;
+}
+.login_information .user span a font{
+	font-size: 12px;
+}
+.login_information .phon, .login_information .Q, .login_information .user{
+	padding: 5px 0;
+}
+
+.login_information .userB{
+	position: relative;
+	cursor: pointer;
+}
+.login_information .userB a{
+	color: #333333;
+	display: block;
+	float: left;
+	font-size: 14px;
+	width: 92px;
+	padding: 6px 0;
+	margin: 0 20px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.login_information .userB:hover .ul_hover_box{
+	display: block;
+	top: 40px;
+	right: 0;
+}
+
+.footer{
+	widows: 100%;
+	background: #f0f0f0;
+}
+.footer_center{
+	width: 1160px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.footer_center span{
+	display: block;
+	float: left;
+	margin: 24px 0;
+}
+.footer_center span img{
+	display: block;
+	margin-bottom: 10px;
+}
+.footer_center span p{
+	line-height: 30px;
+	font-size: 14px;
+	color: #333333;
+	display: block;
+	overflow: hidden;
+}
+.footer_center span .l35{
+	margin-left: 35px;
+}
+.footer_center span p a{
+	color: #333333;
+}
+.footer_center span p a:hover{
+	color: #747474;
+}
+
+.footer_center span p i{
+	margin-right: 5px;
+	float: left;
+	margin: 6px 6px 6px 0;
+}
+.footer_center span p font{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 6px 0;
+	display: block;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}
+
+.bottom_footer{
+	text-align: center;
+	line-height: 24px;
+	font-size: 12px;
+	padding: 30px 0;
+}
+/**/
+.contentBox{
+	min-height: 1000px;
+	
+}
+
+/**/
+.splitLine{
+	width: 100%;
+	height: 1px;
+	background: #935c49;
+}
+.contentBoxLogin{
+	margin: 0 auto;
+	width: 1160px;
+	min-height: 600px;
+	background: #fff;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+/*背景图片*/
+.state_process{
+	width: 80%;
+	height: 46px;
+	margin: 50px auto 0;
+	overflow: hidden;
+}
+
+.state_process ul{
+	overflow: hidden;
+}
+.state_process li{
+	display: block;
+	float: left;
+	margin: 0 80px;
+}
+.state_process li span{
+	display: block;
+	float: left;
+	height: 24px;
+	line-height: 24px;
+	margin: 10px;
+}
+.circularBK_Red,.circularBK_Gray{
+	width: 24px;
+	height: 24px;
+	display: block;
+	text-align: center;
+	line-height: 24px;
+	color: #fff;
+}
+.circularBK_Red{
+	background: url(../img/images/circularBK_Red.png) no-repeat;
+}
+.circularBK_Gray{
+	background: url(../img/images/circularBK_Gray.png) no-repeat;
+}
+.state_process .Progress_state{
+	height: 2px;
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	background: #e6e6e6;
+}
+.state_process .Progress_state span{
+	display: block;
+	width: 320px;
+	background: #c40000;
+}
+
+/**/
+.pv_Modular,.an_Modular,.Success_Modular{
+	width: 400px;
+	margin: 40px auto;
+	overflow: hidden;
+}
+.pv_Modular{
+	display: none;
+}
+.an_Modular{
+	display: none;
+}
+.Success_Modular{
+    display: block;	
+}
+.box{
+	width: 100%;
+	height: 38px;
+	margin-top: 20px;
+	overflow: hidden;
+	position: relative;
+}
+.box .title{
+	display: block;
+	float: left;
+	width: 110px;
+	height: 38px;
+	line-height: 38px;
+	text-align: right;
+	padding-right: 10px;
+	font-size: 16px;
+}
+.box input{
+	display: block;
+	float: left;
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #dedede;
+	font-size: 14px;
+	padding: 6px;
+}
+.pv_Modular .box .phone_number{
+	width: 205px;
+	padding-left: 60px;
+}
+.an_Modular .box .phone_number{
+	width: 259px;
+}
+.pv_Modular .box .position_86{
+	position: absolute;
+	top: 0;
+	left: 120px;
+	width: 50px;
+	text-align: center;
+	border-right: 1px solid #dedede;
+	height: 38px;
+	line-height: 38px;
+}
+.pv_Modular .box .number_V{
+	width: 100px;
+	text-align: center;
+}
+.an_Modular .box .number_V{
+	width: 100px;
+	text-align: center;
+}
+.box .img_V{
+	display: block;
+	float: right;
+	height: 34px;
+	margin-top: 2px;
+	margin-right: 7px;
+	overflow: hidden;
+	background: #666666;
+}
+.box .img_V img{
+	display: block;
+	width: 100%;
+	height: 100%;
+} 
+.box #send_out{
+	padding: 0;
+	height: 36px;
+	line-height: 36px;
+	width: 100px;
+	float: right;
+	border-radius:4px;
+	border: none;
+	margin-top: 1px;
+	margin-right: 7px;
+}
+.Prompt{
+	margin: 6px 0;
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	font-size: 12px;
+	color: #c40000;
+}
+.Next_step{
+	display: block;
+	margin: 20px auto;
+	width: 200px;
+	height: 36px;
+	line-height: 36px;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	color: #fff;
+	/*background: #dedede;*/
+	background: #c60000;
+}
+
+.Success_Modular h1{
+	text-align: center;
+	margin-top: 100px;
+}
+.Success_Modular .Next_step{
+	text-align: center;
+	margin: 40px auto;
+}
+
+
+
+/*login*/
+.login_box{
+	width: 445px;
+	height: 435px;
+	padding: 10px;
+	overflow: hidden;
+	background: url(../img/images/bg_login_03.png) no-repeat center;
+	margin: 100px auto;
+}
+.login_box .option_top{
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	margin: 25px 0;
+	color: #ccc;
+	font-size: 16px;
+}
+.login_box .option_top span{
+	color: #666666;
+	padding: 0 50px;
+}
+.login_box .option_top .active_option{
+	color: #62ab00;
+}
+
+.login_box .option_box{
+	margin: 0 20px;
+}
+.login_box .option_box .pr input{
+	width: 343px;
+	height: 30px;
+	padding: 9px 0;
+	padding-left: 60px; 
+	border: 1px solid #cccccc;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+.login_box .option_box .pr span{
+	top: 11px;
+	left: 1px;
+	border-right: 1px solid #cccccc;
+}
+.login_box .option_box button{
+	width: 100%;
+	height: 50px;
+	background: #f5f5f5;
+	color: #a9a9a9;
+	border: 1px solid #cccccc;
+	font-size: 14px;
+}
+.login_box .option_box .pr button{
+	width: 138px;
+	float: right;
+}
+.login_box .option_box .active_b{
+	background: #62ab00;
+	color: #fff;
+}
+.option_box p{
+	margin-top: -10px;
+	text-align: center;
+	height: 14px;
+	line-height: 14px;
+	font-size: 12px;
+	color: red;
+}
+
+.login_box .option_box .href_{
+	font-size: 14px;
+	height: 25px;
+	line-height: 25px;
+	float: right;
+}
+.login_box .option_box .href_ a{
+	padding: 0 6px;
+}
+.login_box .Third_party span{
+	display: block;
+	height: 14px;
+	border-bottom: 1px solid #ccc;
+	margin: 20px;
+}
+.login_box .Third_party p{
+	display: block;
+	width: 110px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background: #ffffff;
+}
+.login_box .Third_party .icon_qq{
+	float: left;
+	margin-left: 160px;
+}
+.login_box .Third_party .icon_wechat{
+	float: right;
+	margin-right: 160px;
+}

@@ -1,0 +1,66 @@
+.icon_phon{
+	width: 18px;
+	height: 23px;
+	display: block;
+	overflow: hidden;
+	background: url(../img/images/icon_phon.png) no-repeat;
+}
+.icon_footer{
+	width: 30px;
+	height: 30px;
+	display: block;
+	overflow: hidden;
+	background: url(../img/images/icon_footer.png) no-repeat;
+}
+.icon_personal{
+	width: 25px;
+	height: 23px;
+	display: block;
+	overflow: hidden;
+	background: url(../img/images/icon_personal.png) no-repeat;
+}
+.icon_Q1{
+	width: 30px;
+	height: 30px;
+	display: block;
+	overflow: hidden;
+	background: url(../img/images/Q1.png) no-repeat;
+}
+.icon_Q2{
+	width: 30px;
+	height: 30px;
+	display: block;
+	overflow: hidden;
+	background: url(../img/images/Q2.png) no-repeat;
+}
+.icon_account{
+	width: 48px;
+	height: 30px;
+	display: block;
+	overflow: hidden;
+	background: url(../img/images/icon_account.png) no-repeat;
+}
+.icon_Password{
+	width: 48px;
+	height: 30px;
+	display: block;
+	overflow: hidden;
+	background: url(../img/images/icon_Password.png) no-repeat;
+}
+.icon_qq{
+	width: 44px;
+	height: 44px;
+	display: block;
+	overflow: hidden;
+	background: url(../img/images/icon_qq.png) no-repeat;
+}
+.icon_wechat{
+	width: 44px;
+	height: 44px;
+	display: block;
+	overflow: hidden;
+	background: url(../img/images/icon_wechat.png) no-repeat;
+}
+
+
+
